@@ -1,5 +1,5 @@
 ###### Plot 2
-#File is already stored in my working directory and the data is loaded into R using the following codes where stringsAsFactors=FALSE is added to avoid the conversion of vectors to factors:
+#The dataset is already stored in my working directory and the data is loaded into R using the following codes where stringsAsFactors=FALSE is added to avoid the conversion of vectors to factors:
 filenamne <- "household_power_consumption.txt"
 rawfile <- read.table(filenamne, header= TRUE, sep= ";", stringsAsFactors= FALSE)
 
