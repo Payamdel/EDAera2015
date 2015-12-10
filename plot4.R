@@ -14,7 +14,7 @@ times <- SubDate$Time
 #Use the paste function to concatenate vectors after converting to character. The cbind function would not work here as it will generate matrix instead of character.
 x <- paste(dates, times)
 
-# Since i do live in Sweden and i want to express the dates in English, i do use the following code first.
+# Since i do live in Sweden and i want to express the dates in English instead of Swedish, i do use the following code first.
 Sys.setlocale("LC_TIME", locale="USA")
 
  # To convert the Date and Time variables to Date/Time classes in R using the strptime(), i.e., Date-time conversion from character vector.
