@@ -11,7 +11,7 @@ SubDate <- rawfile[SubDate,]
 ## read in date/time info in format "%d/%m/%Y %H:%M:%S"
 dates <- SubDate$Date
 times <- SubDate$Time
-#Use the paste function to concatenate vectors after converting to character. The cbind function would not work here as it will generate instead of character.
+#Use the paste function to concatenate vectors after converting to character. The cbind function would not work here as it will generate matrix instead of character.
 x <- paste(dates, times)
 
 # Since i do live in Sweden and i want to express the dates in English, i do use the following code first.
